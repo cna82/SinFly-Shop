@@ -1,0 +1,34 @@
+.singleContainer {
+    background-color: #f8f8f8 !important;
+    border: 10px double gray !important;
+    border-radius: 15px !important;
+}
+
+.singleWrapper {
+    width: 100% !important;
+    background-color: #dadada;
+}
+
+.addedBtn {
+    cursor: not-allowed !important;
+    color: #fff1da !important;
+    background-color: red !important;
+    opacity: .8;
+    border: 1px solid gray !important;
+    border-radius: 1rem 0 !important;
+}
+
+.loadingContainer {
+    width: 100%;
+    height: 90vh !important;
+    display: flex;
+    justify-content: center;
+    background-color: #dadada;
+    padding: 2rem !important;
+    gap: 1rem;
+}
+
+.imgResponsive {
+    height: 25rem !important;
+    width: 100% !important;
+}

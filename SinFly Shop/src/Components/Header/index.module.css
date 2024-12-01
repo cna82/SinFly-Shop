@@ -1,0 +1,49 @@
+.logo {
+    width: 4rem;
+    height: 5rem !important;
+}
+
+.route {
+    transition: all .3s ease-in-out !important;
+    letter-spacing: 1px;
+    font-size: 14px !important;
+    color: black;
+}
+
+.route:not(.activeRoute):hover {
+    color: #e21717 !important;
+    letter-spacing: 3px;
+
+}
+
+.counter {
+    position: relative;
+    top: -1.1rem;
+    color: #690202;
+}
+
+.navContainer {
+    background-color: #f6f6f6 !important;
+    height: 3.9rem !important;
+}
+
+.activeRoute {
+    text-decoration: none !important;
+    color: blue !important;
+}
+
+.activeRoute::before {
+    content: "🔵";
+    font-size: 10px !important;
+    margin: auto !important;
+    text-align: center !important;
+    position: absolute;
+    top: .77rem;
+    left: -9px;
+    color: blue;
+    text-decoration: none !important;
+}
+
+.subwayIcon {
+    font-size: 1.8rem !important;
+}

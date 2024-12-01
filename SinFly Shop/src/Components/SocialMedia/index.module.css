@@ -1,0 +1,8 @@
+.iconContainer {
+  gap: 5rem;
+  padding: 30px 30px 50px 0;
+}
+
+.iconContainer i {
+  color: #164e63;
+}

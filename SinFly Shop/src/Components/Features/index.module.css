@@ -1,0 +1,148 @@
+.background {
+  padding: 0 25px 25px;
+  position: relative;
+  width: 100%;
+  background: linear-gradient(to bottom, white, #eaeaea, #e3e3e3, #eefffc,rgb(240, 240, 240), white);
+}
+
+.background::after {
+  content: '';
+  height: 350px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+}
+
+@media (min-width: 900px) {
+  .background {
+    padding: 0 0 25px;
+  }
+}
+
+.containers {
+  margin: 0 auto;
+  padding: 50px 0 0;
+  max-width: 60rem;
+  width: 100%;
+
+}
+
+.panel {
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 15px 25px;
+  position: relative;
+  width: 90%;
+  margin: auto;
+  text-align: center;
+  z-index: 2;
+  box-shadow: 0 0 10px 12px #9b9b9b !important;
+  height: 90vh !important;
+
+}
+
+.pricingTable {
+  box-shadow: 0px 10px 13px -6px #00000014, 0px 20px 31px 3px #00000017, 0px 8px 20px 7px rgba(0, 0, 0, 0.02);
+  display: flex;
+  flex-direction: row;
+}
+
+@media (min-width: 900px) {
+  .pricing-table {
+    flex-direction: row;
+  }
+}
+
+.pricingTable * {
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.pricingPlan {
+  border-bottom: 1px solid #e1f1ff;
+  padding: 25px;
+}
+
+.pricingPlan:last-child {
+  border-bottom: none;
+}
+
+@media (min-width: 900px) {
+  .pricingPlan {
+    border-bottom: none;
+    border-right: 1px solid #e1f1ff;
+    flex-basis: 100%;
+    padding: 25px 50px;
+  }
+
+  .pricingPlan:last-child {
+    border-right: none;
+  }
+}
+
+.pricingImg {
+  margin-bottom: 25px;
+  width: 10rem;
+  height: 10rem !important;
+  border-radius: 50%;
+}
+
+.pricingHeader {
+  color: #888;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+.pricingFeatures {
+  color: #016FF9;
+  font-weight: 600;
+  letter-spacing: 1px;
+  /* margin: 50px 0 25px; */
+  margin: 1.4rem .5rem 0 0 ;
+}
+
+.pricingFeaturesItem {
+  border-top: 1px solid #e1f1ff;
+  font-size: 12px;
+  line-height: 1.5;
+  padding: 15px 0;
+}
+
+.pricingFeaturesItem:last-child {
+  border-bottom: 1px solid #e1f1ff;
+}
+
+.pricingPrice {
+  color: #016FF9;
+  display: block;
+  font-size: 32px;
+  font-weight: 700;
+}
+
+.pricingButton {
+  border: 1px solid #9dd1ff;
+  border-radius: 10px;
+  color: #348EFE;
+  display: inline-block;
+  margin: 25px 0;
+  padding: 15px 35px;
+  text-decoration: none;
+  transition: all 150ms ease-in-out;
+}
+
+.pricingButton:hover,
+.pricingButton:focus {
+  background-color: #e1f1ff;
+}
+
+.pricingButton.is-featured {
+  background-color: #48aaff;
+  color: #fff;
+}
+
+.pricingButton.is-featured:hover,
+.pricingButton.is-featured:active {
+  background-color: #269aff;
+}

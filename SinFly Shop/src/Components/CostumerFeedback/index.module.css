@@ -1,0 +1,21 @@
+.myContainer {
+    background-color: lightcoral !important;
+}
+
+.sliderImg {
+    border-radius: 50%;
+    border: 1px solid rgb(196, 196, 196);
+
+}
+
+.sliderContainer {
+    box-shadow: 4px 4px 6px 5px #e4e4e4;
+    border-radius: 0 0 1.5rem 0;
+    background-color: white;
+}
+
+.spanRole {
+    position: relative;
+    top: -15px;
+    font-weight: 450;
+}

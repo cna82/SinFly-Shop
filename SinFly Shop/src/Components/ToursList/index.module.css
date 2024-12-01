@@ -1,0 +1,125 @@
+.toursContainer {
+    padding: 1.8rem 0 2rem 2rem !important;
+    display: grid;
+    height: auto;
+    grid-template-columns: repeat(4, 15.5rem);
+    column-gap: 2.5rem;
+    row-gap: 3.5rem !important;
+    justify-content: center;
+    align-items: center;
+}
+
+.toursContainer img {
+    width: 100%;
+    height: 15rem;
+    border-radius: 1rem 1rem 0 0;
+}
+
+.singleTour {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-flow: column wrap;
+    gap: 1.2rem;
+    border: 1px solid #cacaca;
+    border-radius: 1rem;
+    background-color: #f8f8f8;
+    cursor: pointer !important;
+    box-shadow: 0 0 5px 6px #a8a8a8;
+}
+
+.sort {
+    letter-spacing: normal;
+}
+
+.transportationVehicle {
+    border-radius: 1rem !important;
+    height: 50vh !important;
+    position: fixed !important;
+    top: 13% !important;
+    right: 20px;
+}
+
+.article {
+    overflow: hidden !important;
+}
+
+.myBtn {
+    height: 2.2rem !important;
+    width: 2.2rem !important;
+    padding: 0 !important;
+    border-radius: 50% !important;
+
+}
+
+.label {
+    height: 2.2rem !important;
+    outline-color: #ff9811 !important;
+}
+
+.badgeCounter span {
+    font-size: 18px !important;
+    background-color: #636363;
+    border-radius: 50%;
+}
+
+.badgeCounter i {
+    font-size: 18px !important;
+}
+
+
+.addBtn {
+    margin-bottom: 15px !important;
+}
+
+.addBtn button {
+    transition: all .5s !important;
+}
+
+.specialOffer {
+    border-radius: 1rem 0 !important;
+    background-color: #fffcf8;
+    color: #ff2020 !important;
+    left: 0;
+    font-size: 13px !important;
+    letter-spacing: 1px;
+}
+
+.disPerBadge {
+    font-size: 10px !important;
+    background-color: #E65100;
+}
+
+.addedBtn {
+    cursor: not-allowed !important;
+    color: #fff1da !important;
+    background-color: red !important;
+    opacity: .8;
+    border: 1px solid gray !important;
+    border-radius: 1rem 0 !important;
+}
+
+.searchIcon,
+.searchInput {
+    background-color: #f8f8f8 !important;
+    border: 4px double #949393 !important;
+    cursor: pointer !important;
+}
+
+.myBtns {
+    background-color: #e7e7e7 !important;
+    color: black !important;
+    border: 4px double black !important;
+    font-size: 14px !important;
+    transition: all 0.5s !important;
+}
+
+.myBtns:hover {
+    background-color: black !important;
+    color: white !important;
+    border-color: white !important;
+}
+
+.notFoundImg {
+    margin-top: -5rem !important;
+}

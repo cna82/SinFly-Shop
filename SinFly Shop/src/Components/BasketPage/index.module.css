@@ -1,0 +1,23 @@
+/* Css Module Styles  */
+
+.disPerBadge {
+    font-size: 10px !important;
+    background-color: #00485a;
+}
+
+@media (min-width: 1025px) {
+    .h-custom {
+        height: 100vh !important;
+    }
+}
+
+.summarySection {
+    background-color: #00485a;
+    position: sticky !important;
+    top: 0;
+    right: 0;
+    height: 100vh !important;
+    align-self: flex-start !important;
+    border-radius: 0 1rem 1rem 0;
+    color: white !important;
+}

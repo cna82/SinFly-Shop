@@ -1,0 +1,72 @@
+/* Global Css For Whole Pages  */
+/* Tailwind css imports  */
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* Fonts Imports   */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+.poppins-regular {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.Josefin-regular {
+  font-family: "Josefin", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* Star selector  */
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+/* Header active classs */
+.active {
+  text-decoration: none;
+  color: #5900ff !important;
+}
+
+.active::before {
+  content: "🔹";
+}
+
+body {
+  font-family: "Josefin Sans", serif !important;
+}
+
+/* Swiper JS Styles  */
+.swiper-button-prev,
+.swiper-button-next {
+  color: yellow !important;
+  font-size: 0.5rem !important;
+  font-weight: bold !important;
+}
+
+.swiper-button-next::after,
+.swiper-button-prev::after {
+  font-size: 2rem !important;
+}
+
+.my-h-40 {
+  height: 40vh !important;
+}
+
+.swiper-pagination-bullet-active {
+  background-color: yellow !important;
+}
+
+.swiper-scrollbar.swiper-scrollbar-horizontal {
+  height: 0.35rem !important;
+  background-color: #ffff00d3 !important;
+}
+
+.swiper-scrollbar-drag {
+  background-color: #73007e !important;
+}

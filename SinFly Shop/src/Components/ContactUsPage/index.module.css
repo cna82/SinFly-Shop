@@ -1,0 +1,26 @@
+.inputError {
+  border: 2px solid red !important;
+}
+.contactFirst {
+  margin: auto !important;
+  text-align: center;
+  background-image: url("./Images/ContactUs/bg.png");
+  width: 850px !important;
+  height: 550px !important;
+  background-size: cover;
+  border-radius: 1.5rem;
+  box-shadow: 0 0 15px 8px #84505b !important;
+}
+.textarea {
+  height: 18vh !important;
+}
+.contactUsWrapper {
+  background-color: #dadada;
+  padding: 2.5rem 0;
+}
+
+.contactContainer {
+  width: 40%;
+  background-color: white;
+  border-radius: 0 1.5rem 1.5rem 0;
+}
